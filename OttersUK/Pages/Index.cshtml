@@ -1,0 +1,259 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="background-image-container" style="background-image: url('./assets/images/img-05.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8" style="background-color:white; margin:10px 0 0 5px; opacity:60%;">
+                <h2 >Otter Tracking UK</h2>
+                <p >Protecting and Caring for Otters in their natural habitate</p>
+            </div>
+            <div class="col-xs-4"></div>
+            <br/>
+            <div class="col-xs-12"><a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link white-text-container" title="">Get in touch</a></div>
+            </div>
+    </div>
+</div>
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">What we do...</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Conservation</h3>
+                <p>
+                    We <b>rehabilitate injured and orphaned otter cubs</b> at our centre in Devon, caring for them and continuing their development so they can later be released back into the wild.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Education</h3>
+                <p>
+                    We hold talks, run courses, and offer <b>information and guidance</b> for everyone – from fishery owner to novice otter-spotter – on how to responsibly enjoy and co-exist with the species, and to help <b>educate and engage the public.</b>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Protect</h3>
+                <p>
+                    We run a <b>Young Ambassador Scheme</b> for young otter lovers, supported by Chris Packham, to inspire and support young people to become leaders in the natural world.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-container section-half-background-image-container">
+    <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
+    <div class="container">
+        <div class="row">
+            <div class="section-label reveal">
+                <p style="color:darkseagreen; opacity:40%; text-align:center;">Conservation</p>
+            </div>
+            <div class="col-md-6 col-md-offset-6 text-column">
+                <h2>Educational Materials</h2>
+                <h3>Learn with Otter Rescue UK</h3>
+                <p>
+                    In the spirit of #SocialDistanceLearning and #ScienceFromHome, we’ve developed a series of concise 30-minute modules for any otter lovers currently learning from home amid the COVID-19 school disruption. Suitable for primary-age children, the modules can be done individually or combined to form one larger lesson, and incorporate science, art, mathematics, english, and geography.
+                </p>
+                <p>
+                    By the end, you’ll be an expert on all things otter!
+                </p>
+                <p>
+                    Let’s get started:<br />
+                    <br />
+                    Module 1: Otters as a species<br />
+                    Module 2: Their role within their ecosystems<br />
+                    Module 3: Threats facing otters<br />
+                    Module 4: Otters around the world<br />
+                    Module 5: How to engage responsibly with otters<br />
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Adopt an Otter!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-02.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Nutkins</h3>
+                <p>
+                    Nutkins is our newest arrival, and came to us just days ago – so we’re still monitoring her as she gets used to her new environment. She is tiny and so will stay inside until she’s put on some more weight, after which she will go out into one of our new enclosures.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-03.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Dinsdale</h3>
+                <p>
+                    Dinsdale was found alone by a dog walker on the bank of the River Frome, Dorset. We waited to see if her mum would return, but no luck – so we brought her to safety. She is enjoying her salmon and is quite feisty! We hope to eventually pair her up as otters gain confidence in pairs.
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-04.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Puddles</h3>
+                <p>
+                    Puddles joined us very recently from a village near Taunton, Somerset. He was found alone on a river with high water levels, and so after hours of monitoring and no sign of mum, he was brought to us. He has a year of rehab and enrichment ahead before his release.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="">
+    <div class='container-fluid'>
+        <div class="row map-container">
+            <div id="map"></div>
+            <div class="col-xs-10 col-md-4 contact-block-container reveal">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h3>Phone</h3>
+                        <p>+ 123 45 67 890</p>
+
+                        <h3>E-mail</h3>
+                        <p>hello@email.com</p>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <h3>Address</h3>
+                        <p>42 rue rouelle 75015, Paris</p>
+
+                        <h3>Open hours</h3>
+                        <p>Mon - Fri : 9AM - 5PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section-container" id="contact-section-container">
+    <div class="container contact-form-container">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-2 col-md-8">
+                <div class="section-container-spacer">
+                    <h2 class="text-center">Get in touch</h2>
+                </div>
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1">Email me a copy
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="option2">I am a human
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <a href="" class="btn btn-default">Reset</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>document.addEventListener("DOMContentLoaded", function (event) {
+
+  googleMapInit();
+  scrollToAnchor();
+  scrollRevelation('reveal');
+});</script>
+
+<footer class="footer-container white-text-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor</p>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Do you like ? Share this !</h4>
+                <div>
+                    <p>
+                        <a href="https://www.twitter.com" class="fa-icon" title="">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com" class="fa-icon" title="">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" class="fa-icon" title="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <h4>Subscribe to newsletter</h4>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control footer-input-text">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default btn-newsletter ">OK</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+});</script>
+
