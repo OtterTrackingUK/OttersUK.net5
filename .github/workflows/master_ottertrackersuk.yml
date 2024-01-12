@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'ottertrackersuk'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D54A3338CCF0415F9B1C95B5584725DF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A11184F2037D4882AD5C5ABE3A627A9D }}
           package: .
